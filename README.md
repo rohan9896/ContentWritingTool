@@ -1,54 +1,11 @@
-# React + TypeScript + Vite
+Hosted Link - https://contentwritingtool.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lighthouse Score - 
+<img width="1512" alt="Screenshot 2025-04-27 at 10 15 31 PM" src="https://github.com/user-attachments/assets/d39143dd-7ec8-484b-a6a7-6745e3fd78ad" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Screenshots - 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+<img width="1512" alt="Screenshot 2025-04-27 at 10 08 57 PM" src="https://github.com/user-attachments/assets/72744f94-f40a-46b5-8972-f388b21ec21a" />
+<img width="1512" alt="Screenshot 2025-04-27 at 10 09 15 PM" src="https://github.com/user-attachments/assets/8d4c3259-f0a2-42e4-88d8-7458335f9e84" />
+<img width="1512" alt="Screenshot 2025-04-27 at 10 09 27 PM" src="https://github.com/user-attachments/assets/45fef626-be0c-4481-a513-f28cdc2c0266" />
