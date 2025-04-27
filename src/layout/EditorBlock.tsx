@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Box, Flex, Button, Portal, Text } from "@chakra-ui/react";
+import { Box, Flex, Portal, Text } from "@chakra-ui/react";
 import { Block, BlockType } from "../types";
 
 const getBlockStyles = (blockType: BlockType) => {
